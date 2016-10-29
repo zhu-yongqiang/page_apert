@@ -3,13 +3,10 @@ body {
 	margin: 0 auto;
 	font-family: microsoft yahei;
 }
-ul {
-	display: none;
-}
 li {
-    list-style: none;
+	list-style: none;
     width: 18%;
-	height: 200px;
+	height: 180px;
 	text-align: center;
 	line-height: 200px;
 	font-size: 30px;
@@ -17,10 +14,17 @@ li {
 	background-color: #F5DEB3;
 	float: left;
 }
-#pageIt {
+#pagelist {
 	position: absolute;
-	left: 30%;
-    top: 700px;
+	width: 60%;
+    top: 600px;
+
+}
+#previous {
+    float: left;
+}
+#next {
+	float: right;
 }
 a {
 	text-decoration: none;
